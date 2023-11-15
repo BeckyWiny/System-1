@@ -1,0 +1,130 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  
+  /* Movie Theme */
+  body {
+    background-size: cover;
+  }
+  
+  .input-label {
+    color: #333;
+  }
+  
+  /* Prisoner-specific styles */
+  .prisoner-details {
+    margin-bottom: 30px;
+  }
+  
+  .prisoner-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .prisoner-details label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .prisoner-details input[type="text"],
+  .prisoner-details input[type="date"],
+  .prisoner-details select {
+    width: 100%;
+  }
+  
+  .prisoner-details textarea {
+    width: 100%;
+    resize: vertical;
+  }
+  
+  .prisoner-details input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .prisoner-details input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  .prisoner-details .alert {
+    margin-top: 10px;
+  }
+
+  
