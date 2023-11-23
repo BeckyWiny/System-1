@@ -59,7 +59,7 @@ mysqli_close($con);
         header h1 {
             font-weight: bold;
             margin: 10;
-            font-size: 34px;
+            font-size: 35px;
             color: #FFF;
         }
 
